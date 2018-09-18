@@ -95,7 +95,7 @@
 ### Create these Containers that care about what the data is
   * Import connect from react-redux into all containers
   * Import the appropriate component into the container
-  * Create mapStateToProps function 
+  * Create mapStateToProps function
   * Call the connect function
   * SpecialTextContainer.js
     * map a prop called `text` to the state `specialText`
@@ -130,6 +130,9 @@
   * CityDropDownContainer.js
     * import `setCurrentCity` action
     * map prop `set` to action `setCurrentCity`
+  * ChangeTemperatureContainer.js
+    * import `setTemp` action
+    * map prop `set` to action `setTemp`
   * CounterButtonContainer.js
     * import the increaseCounter and decreaseCounter actions
     * map prop `increase` to action `increaseCounter`
